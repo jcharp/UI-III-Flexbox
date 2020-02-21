@@ -67,11 +67,14 @@ h1, h2, h3, h4, h5 {
 
 
 nav {
-	display:inline-block;
-	width: 100px;
-	margin-left: 100px;
-}
 
+padding: 20px;
+margin: 20px;
+
+	
+	
+	
+}
 
 .top {
 
@@ -101,21 +104,20 @@ nav {
 	left: 300;
 	top:0;
 }
-.bottom1  {
+.bottom1 {
+	border: 1px solid black;
+	Margin: 100px;
+	display:flex;
 
-	
-	display:inline-block;
-	width:600px;
-	margin-left:100px;
-}
-.bottom2 {
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-around;
 
+	height: 150px;
 	
-	display:inline-block;
-	width:600px;
-	margin-left:100px;
-	margin-bottom: 50px;
+	
 }
+
 .middle-img {
 	
 	margin-left: 100px;
